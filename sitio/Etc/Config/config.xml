@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+	<app>
+		<key>DDD9972D36F1287C0C1A05E2D0C2490A</key>
+		<name>apsicat.com</name>
+		<company>sincco.com</company>
+	</app>
+	<front>
+		<url>http://apsicat.com/</url>
+	</front>
+	<bases>
+		<default>
+			<host>localhost</host>
+			<user>apsicat.com</user>
+			<password>JmBzsxSk2y/me7WgbCp1p439v9kcOQrqhBWAe101fQg=</password>
+			<dbname>apsicat.com</dbname>
+			<type>mysql</type>
+		</default>
+	</bases>
+	<dev>
+		<log>1</log>
+		<showerrors>1</showerrors>
+		<showphperrors>1</showphperrors>
+	</dev>
+	<sesion>
+		<type>DEFAULT</type>
+		<name>apsicatcom</name>
+		<ssl>0</ssl>
+		<inactivity>60</inactivity>
+	</sesion>
+</config>
